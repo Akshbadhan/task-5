@@ -1,0 +1,197 @@
+
+
+/* styles2.css */
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.event {
+  Width: 32%;
+  Margin-right: 1%;
+  Float: left;
+  Background-color: #fff;
+  Padding: 10px;
+}
+.event .heading {
+  Border-bottom: 1px solid #46b7c1;
+  Padding: 5px;
+  Color: #fff;
+  Background: #46b7c1;
+  Text-align: center;
+}
+.event ul li {
+  Margin-bottom: 20px;
+  Width: 100%;
+  Float: left;
+  List-style: none;
+}
+.event-date {
+  Background: #46b7c1;
+  Float: left;
+  Text-align: center;
+  Font-size: 14px;
+  Color: #fff;
+  Padding: 8px 12px;
+  Margin-right: 10px;
+}
+
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+}
+
+section h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+}
+
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+@media (max-width: 768px) {
+    Nav ul {
+        Display: flex;
+        Flex-direction: column;
+        Align-items: center;
+    }
+
+    Nav ul li {
+        Margin: 5px 0;
+    }
+
+    Main {
+        Padding: 10px;
+    }
+
+    Section {
+        Margin: 10px 0;
+    }
+
+    Footer {
+        Position: relative;
+    }
+}
+
+@media (max-width: 480px) {
+    Header h1 {
+        Font-size: 1.5em;
+    }
+
+    Nav ul li {
+        Margin: 5px 0;
+    }
+
+    Section h2 {
+        Font-size: 1.2em;
+    }
+
+    Section p {
+        Font-size: 1em;
+    }
+}
+
+
+/* Navigation Bar */
+Nav {
+    Background: #333;
+    Color: #fff;
+    Padding: 10px 20px;
+    Text-align: center;
+}
+
+Nav ul {
+    List-style: none;
+    Margin: 0;
+    Padding: 0;
+}
+
+Nav ul li {
+    Display: inline;
+    Margin: 0 15px;
+}
+
+Nav ul li a {
+    Color: #fff;
+    Text-decoration: none;
+    Font-weight: bold;
+}
+
+Nav ul li a:hover {
+    Text-decoration: underline;
+}
+
+
+
+/* Button Styling */
+Button, .btn {
+    Background: #35424a;
+    Color: #fff;
+    Border: none;
+    Padding: 10px 20px;
+    Cursor: pointer;
+    Font-size: 1em;
+    Border-radius: 5px;
+}
+
+Button:hover, .btn:hover {
+    Background: #45a049;
+}
+
+
+/* Card Layout */
+.card {
+    Background: #fff;
+    Border: 1px solid #ddd;
+    Box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    Padding: 20px;
+    Margin: 20px 0;
+    Border-radius: 5px;
+}
+
+.card h3 {
+    Margin-top: 0;
+}
+
+.card p {
+    Margin: 10px 0;
+}
+
+
+
